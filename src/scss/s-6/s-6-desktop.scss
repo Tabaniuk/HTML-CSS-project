@@ -1,0 +1,36 @@
+@media (min-width: 1200px) {
+  .wrapper__s-6 {
+    background-color: rgba(231, 231, 231, 0.9);
+    background-image: linear-gradient(-15deg, rgba(255, 255, 255, 0.9) 30%, rgba(231, 231, 231, 0.9) 30%);
+
+  }
+
+  .title--s-6 {
+    font-size: $dtTitle;
+  }
+
+  .title--s-6:before {
+    height: rem(8);
+    width: rem(26);
+  }
+
+  .paragraph__s-6--width {
+    width: 65%;
+    margin: auto;
+  }
+
+  .blueword {
+    color: $textBlue;
+    font-size: $tabPar;
+    margin-left: 60%;
+    border: 1px solid $textGrey;
+    background-color: $textGrey;
+    font-weight: 700;
+  }
+
+  .paragraph__bot--s-6 {
+    font-size: $dtPar;
+    border-top: rem(2) solid $textGrey;
+    padding-bottom: 3.3rem;
+  }
+}
